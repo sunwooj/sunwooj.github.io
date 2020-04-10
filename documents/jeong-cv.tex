@@ -1,0 +1,515 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{url}
+\usepackage{kotex}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Sunwoo Jeong $\star$ 정선우}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{https://sunwooj.github.io/documents/jeong-cv.pdf}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {linguistics, Jeong, CV},
+  pdftitle = {\name: Sunwoo Jeong CV},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+%\centerline{\LARGE \bf \name}
+%\centerline{\huge \name}
+
+%\rule{\linewidth}{1pt}
+
+%\vspace{0.24in}
+\vspace{0.28in}
+
+%\begin{minipage}{\linewidth}
+%\begin{center}
+ % Department of Linguistics, \href{http://stanford.edu/}{Stanford University} \\ Margaret Jacks Hall, Building 460, Stanford CA 94305 \\
+ % {\tt sunwooj at stanford dot edu}\\
+%\end{center}
+%\end{minipage}
+
+%Alternative
+\begin{minipage}{\linewidth}
+  Department of Linguistics, \href{http://hosting01.snu.ac.kr/~linguist/}{Seoul National University} \\ 
+  Gwanak-gu, Gwanak-ro 1, 2-108 \hfill Email:\,\,\,\,\,\, {\tt sunwooj@snu.ac.kr} \\
+  Republic of Korea, 08826 \hfill Webpage:\,\, {\tt https://sunwooj.github.io/} 
+\end{minipage}
+%\begin{minipage}{0.5\linewidth}
+%  \begin{tabular}{rr}
+%   \, & \, \\
+%  Email: & {\tt sunwooj at stanford dot edu} \\
+%  Homepage: & {\tt http://stanford.edu/sunwooj} \\
+% \end{tabular}
+%\end{minipage}
+
+
+\section*{Academic Employment \& Education}
+
+\begin{itemize}\itemsep -1pt
+  \item Assistant Professor, Department of Linguistics, Seoul National University \hfill 2019--current
+
+  \vspace{0.08in}
+
+  \item Postdoctoral Research Fellow, Program in Linguistics, Princeton University \hfill 2018--2019
+
+  \vspace{0.08in}
+
+  \item Ph.D., Linguistics, Stanford University \hfill 2013--2018
+  
+  %\vspace{0.08in}
+  \vspace{-0.08in}
+    
+  \begin{itemize}\setlength{\itemsep}{0pt}
+  \item Thesis: \emph{Melodies in context: The semantics and pragmatics of English rising declaratives}
+  \item Committee: Cleo Condoravdi, Christopher Potts (co-chairs), Robert Podesva, Meghan Sumner
+  \end{itemize}
+
+  \item M.A., Linguistics, Stanford University \hfill 2015
+  
+  \item M.A., Linguistics, Seoul National University \hfill 2013
+  
+  \vspace{-0.08in}
+    
+    \begin{itemize}\setlength{\itemsep}{0pt}
+    \item Thesis: \emph{Directional asymmetry in nasalization: A perceptual account}
+    \item Committee: Jongho Jun (chair), Hyesun Cho, Hoyoung Lee
+    \end{itemize}
+ 
+  \item B.A., Linguistics, Seoul National University \hfill 2006--2011
+  
+  \vspace{-0.08in}
+  
+    \begin{itemize}\setlength{\itemsep}{0pt}
+    \item {\it Summa cum Laude} distinction
+    \item Minor in English Language and Literature
+    \end{itemize}
+  
+\end{itemize}
+
+\subsection*{Non-degree Programs}
+
+\begin{itemize}\itemsep -1pt
+\item ESSLLI (European Summer School on Logic, Language, and Information) \hfill Summer 2017
+\item Aix Summer School on Prosody, Institute de Parole et Language \hfill Summer 2016
+\item LSA Linguistic Institute, University of Chicago \hfill Summer 2015
+
+\end{itemize}
+
+
+\section*{Grants, Fellowships, and Honors}
+
+\begin{itemize}\itemsep -1pt
+
+\item Samsung Scholarship, Samsung Foundation of Culture \hfill 2013--2018
+% Maximum of 50000 dollars per year (depending on fundings received from the dept)
+
+\item GRO (Graduate Research Opportunity) Award \hfill 2017
+% 3600 dollars
+
+\item Laboratory Phonology 15 Student Travel Award, LabPhon15 \hfill 2016
+% 400 dollars
+
+\item Linguistic Institute Fellowship, Linguistic Society of America (LSA) \hfill 2015
+
+\item Runner-up, Bloch Fellowship, Linguistic Society of America (LSA) \hfill 2015
+
+\item GSI Scholarship, Seoul National University \hfill 2012--2013
+
+\item First Class Honor Award, Seoul National University \hfill 2011
+
+\end{itemize}
+
+%\section*{Publications}
+
+\section*{Papers \& Manuscripts}
+
+%\subsection*{Peer reviewed articles}
+
+%\begin{itemize}
+%\item Jeong, Sunwoo. 2012. Directional Asymmetry in Nasalization: A Perceptual Account.\ {\it Studies in Phonetics, Phonology, and Morphology}. 18.3: 437-469.
+%\end{itemize}
+
+%\subsection*{Conference proceedings}
+
+\subsection*{Refereed journal papers \& conference proceedings}
+
+\begin{itemize}
+
+\item Jeong, Sunwoo. In prep. Prosodically-conditioned Factive Inferences in Korean: An Experimental Study. To appear in \emph{Semantics and Linguistic Theory 30 (SALT 30)}.
+
+\item Jeong, Sunwoo. In press. The effect of prosody on veridicality inferences in Korean. In Maki Sakamoto, Naoaki Okazaki, Koji Mineshima, and Ken Satoh (eds.), \emph{New Frontiers in Artificial Intelligence: JSAI-isAI 2019 Workshops, LENLS, Revised Selected Papers}.
+% JURISIN, AI-Biz, Kansei-AI Yokohama Japan, November 10-12
+
+\item Jeong, Sunwoo. Accepted pending revisions. Deriving dual dimensions of bias: Preposed negation questions with \textsc{even}. \emph{Journal of Semantics}.
+
+\item Jeong, Sunwoo. 2019. Preposed negation questions with strong NPIs. In Maggie Baird and Jonathan Pesetsky (eds.), \emph{Proceedings of the 49th Annual Meeting of the North East Linguistic Society (NELS 49)}, Volume 2. pp.~131–-144.
+
+\item Condoravdi, Cleo, Jarvis, Rebecca, and Jeong, Sunwoo. 2019. Endorsement of Inconsistent Imperatives. \emph{Proceedings of Linguistic Society of America 2019 (LSA 2019)}.
+
+\item Hilton, Katherine and Jeong, Sunwoo. 2019. The role of context in sociolinguistic perception. \emph{Linguistic Vanguard}.
+
+\item Jeong, Sunwoo. 2018a. Intonation and sentence-type conventions: Two types of rising declaratives. \emph{Journal of Semantics} 35(2): 305--356.
+
+\item Jeong, Sunwoo. 2018b. QUD effects on the Epistemic Containment Principle: An experimental study. In Uli Sauerland and Stephanie Solt (eds.), \emph{Proceedings of Sinn und Bedeutung 22}, Volume 1 of ZASPiL 60. Berlin: Leibniz-Centre General Linguistics. pp.~487–-504.
+
+\item Jeong, Sunwoo. 2018c. Causatives and inchoatives in Korean:\ A unified account. In Shin Fukuda, Mary Shin Kim, and Mee-Jeong Park (eds.), \emph{Japanese/Korean Linguistics 25}, CSLI Publications.
+
+\item Jeong, Sunwoo. 2017. Iconization of sociolinguistic variables: The case of archetypal female characters in classic Hollywood cinema. In Angelika Zirker, Matthias Bauer, Olga Fischer, and Christina Ljungberg (eds.) \emph{Dimensions of Iconicity}. Amsterdam: John Benjamins Publishing Company. pp.~263--286.
+
+\item Jeong, Sunwoo and Cleo Condoravdi. 2017a. Imperatives and intonation: The case of the down-stepped level terminal contour. In Wm. G. Bennett, Lindsay Hracs, Dennis Ryan Storoshenko (eds.) \emph{Proceedings of the West Coast Conference on Formal Linguistics 35 (WCCFL 35)}. Somerville, MA: Cascadilla Proceedings Project. pp.~214--223. 
+
+\item Jeong, Sunwoo and Cleo Condoravdi. 2017b. Imperatives with the calling contour. In Julia Nee, Margaret Cychosz, Dmetri Hayes, Tyler Lau, and Emily Remirez (eds.) \emph{Proceedings of the Berkeley Linguistic Society 43 (BLS 43)}. Volume 1. Berkeley, CA.\ pp.~185–-210.
+
+\item Jeong, Sunwoo and Christopher Potts. 2016. Intonational sentence-type conventions for perlocutionary effects: An experimental investigation. \emph{Semantics and Linguistic Theory 26 (SALT 26)}. 1--22.
+
+\item Jeong, Sunwoo. 2016. Conventions in prosody for affective meanings: Non-canonical terminal contours in English polar interrogatives. \emph{Proceedings of Speech Prosody 2016}, 907--911.
+
+\item Podesva, Robert., Penny Eckert, Julia Fine, Katherine Hilton, Sunwoo Jeong, Sharese King and Teresa Pratt. 2015. Social influences on the degree of stop voicing in inland California. \emph{University of Pennsylvania Working Papers in Linguistics}. 21.2: 19.
+
+\item Jeong, Sunwoo. 2012. Directional asymmetry in nasalization: A perceptual account.\ \emph{Studies in Phonetics, Phonology, and Morphology}. 18.3: 437--469.
+
+\end{itemize}
+
+
+%\subsection*{Book chapters}
+
+%\begin{itemize}
+
+%\item Jeong, Sunwoo. 2017. Iconization of Sociolinguistic Variables: The Case of Archetypal Female Characters in Classic Hollywood Cinema. In {\it Dimensions of Iconicity}. (eds.) Angelika Zirker, Matthias Bauer, Olga Fischer, and Christina Ljungberg. Amsterdam: John Benjamins Publishing Company. 263-286.
+
+%\end{itemize}
+
+
+\subsection*{Manuscripts}
+
+\begin{itemize}
+\item Jeong, Sunwoo. Under revision. Deriving politeness from an extended Lewisian model: The case of rising declaratives.\ 
+
+\item Ahn, Byron, Sunwoo Jeong, Stephanie Shattuck-Hufnagel, Nannette Veilleux. In prep. Finding bias and evidentiality in intonation of American English. Manuscript in prep, Princeton University.
+
+\item Jeong, Sunwoo. 2015. The effect of prosody and speaker voice information on the interpretation of hyperbole. Qualifying Paper, Stanford University.
+\end{itemize}
+
+%\begin{itemize}
+
+% \item Jeong, Sunwoo. 2014. A metrical analysis of quatrains in Emily Dickinson's poems. Manuscript, Stanford University.
+
+% %\item Jeong, Sunwoo. Iconization of Sociolinguistic Variables: The Case of Archetypal Female Characters in Classic Hollywood Cinema. Manuscript under revision. 
+
+% \item Jeong, Sunwoo. 2015. The effect of prosody and speaker voice information on the interpretation of hyperbole. Second Qualifying Paper, Stanford University.
+
+%\item Jeong, Sunwoo. Iconicity in Superasegmental Variables: The Case of Archetypal Hollywood Characters of the 1940s--50s. First Qualifying Paper, Stanford University.
+
+%\item Jeong, Sunwoo. A Metrical Analysis of Quatrains in Emily Dickinson's Poems. Manuscript, Stanford University.
+
+%\end{itemize}
+
+
+
+
+%\section*{Presentations}
+\section*{Talks \& Posters}
+
+\subsection*{Refereed conference talks \& posters}
+
+\begin{itemize}
+
+\item Jeong, Sunwoo, and James Collins. 2019. Updating Alternatives in Pragmatic Competition. The 20th Annual SemFest. Stanford CA, USA.
+
+\item Condoravdi, Cleo, Rebecca Jarvis, and Sunwoo Jeong. 2019. Endorsement of Inconsistent Imperatives. Talk presented at \emph{The 93rd Annual Meeting of the Linguistic Society of America (LSA)}.\ January 5th, New York NY, USA.
+
+\item Jeong, Sunwoo. 2018. Preposed Negation Questions with Strong NPIs. Talk given at \emph{The 49th North East Linguistic Society (NELS 49)}. October 7th, Cornell University NY, USA.
+
+\item Jeong, Sunwoo. 2018. Context, Intonation, and Social Meaning: The Case of Rising Declaratives. Talk given at \emph{Sociolinguistic, Psycholinguistic, and Formal Perspectives on Meaning}. July 3rd, Paris, France.
+
+\item Jeong, Sunwoo. 2017. Causatives and Inchoatives in Korean:\ A Unified Account. Poster presented at {\it The 25th Japanese/Korean Linguistics Conference (JK 25)}. October 13th, Hawaii, USA.
+
+\item Jeong, Sunwoo. 2017. Deriving Social Meanings in an Extended Lewisian Model. Talk given at {\it Questioning Speech Acts Workshop (QSA)}. September 14th, Konstanz, Germany.
+
+\item Jeong, Sunwoo. 2017. QUD effects on Epistemic Containment Principle: An Experimental Study. Poster presented at {\it Sinn und Bedeutung 22 (SuB 22)}. University of Potsdam/ZAS Berlin, Germany.
+
+\item Seung Kyung Kim, Sunwoo Jeong, and James German. 2017. Facial Expression and Phonetic Recalibration in Speech Perception. Poster presented at {\it Architectures and Mechanisms of Language Processing 2017 (AMLaP 2017)}. September 8th, Lancaster, UK.
+
+\item Jeong, Sunwoo and Cleo Condoravdi. 2017. Imperatives and Intonation. Talk given at {\it West Coast Conference on Formal Linguistics 35 (WCCFL 35)}. April 30th, Calgary, Canada.
+
+\item Jeong, Sunwoo and Cleo Condoravdi. 2017. Imperatives with Downstepped Level Terminal Contours. Talk given at {\it Berkeley Linguistics Society 43 (BLS 43)}. February 15th, Berkeley CA, USA.
+
+\item Hilton, Katherine, Sunwoo Jeong, and Robert Xu. 2017. A Phonetic and Pragmatic Analysis of {\it um} and {\it uh} in Spontaneous Conversation. Poster presented at {\it The 91st Annual Meeting of the Linguistic Society of America (LSA)}. January 6th, Austin TX, USA.
+
+\item Jeong, Sunwoo. 2016. Two Types of Rising Declaratives: Speaker Dependent Perception of Intonational Cues. Poster presented at {\it New Ways of Analyzing Variation 45 (NWAV 45)}. November 4th, Vancouver, Canada.
+
+\item Jeong, Sunwoo. 2016. Intonation and Sentence-Type: The Emergence of Conventions for Attitudinal Meanings. Poster given at {\it Laboratory Phonology 15 (LabPhon 15)}. July 15th, Ithaca NY, USA.
+
+\item Jeong, Sunwoo. 2016. Conventions in Prosody for Affective Meanings: Non-Canonical Terminal Contours in English Polar Interrogatives. Talk given at {\it Speech Prosody 2016}. June 2nd, Boston MA, USA.
+
+\item Jeong, Sunwoo and Christopher Potts. 2016. Intonational Sentence-Type Conventions for Perlocutionary Effects: An Experimental Investigation. Talk given at {\it Semantics and Linguistic Theory 26 (SALT 26)}. May 14th, Austin TX, USA.
+
+\item Jeong, Sunwoo. 2016. The Social and Pragmatic Meaning of Non-Rising Terminal Contours in Yes-No Questions. Talk given at {\it The 90th Annual Meeting of the Linguistic Society of America (LSA)}. January 9th, Washington DC, USA.
+
+\item Podesva, Robert J., Daniel Galbraith, Sunwoo Jeong, Sharese King, Bonnie Krejci, Kate Lindsey, Teresa Pratt, Simon Todd, Casey Philip Wong, and Robert Xu. 2016. A Sociophonetic Study of /l/-Darkening Among Latina/o and European Americans in Bakersfield, California. Talk given at {\it The Annual Meeting of the American Dialect Society (ADS)}. January 8th, Washington DC, USA.
+
+\item Jeong, Sunwoo, Simon Todd, Justine Kao, Noah Goodman, and Meghan Sumner. The Effect of Prosodic Cues and Social Information on the Interpretation of Hyperbole. Talk given at {\it Language, Cognition, and Society (AFLiCo6)}. May 27th, Grenoble, France.
+
+\item Jeong, Sunwoo. 2015. Iconicity in Superasegmental Variables: The Case of Archetypal Hollywood Characters of the 1940s-50s. Talk given at {\it The 10th International Symposium on Iconicity in Language and Literature}. March 28th, T{\"u}bingen, Germany.
+
+\item Podesva, Robert, Penny Eckert, Julia Fine, Katherine Hilton, Sunwoo Jeong, Sharese King and Teresa Pratt. 2014. Social Influences on the Degree of Stop Voicing in Inland California. Talk given at {\it New Ways of Analyzing Variation 43 (NWAV 43)}. October 25th, Chicago IL, USA.
+
+\item Jeong, Sunwoo. 2013. Directional Asymmetry in Contextual Vowel Nasalization. Poster presented at {\it The 87th Annual Meeting of the Linguistic Society of America (LSA)}. January 5th, Boston MA, USA.
+
+\item Jeong, Sunwoo. 2012. Directional Asymmetry in Vowel Nasalization. Talk given at {\it The Annual Meeting of the Linguistic Society of Korea (LSK)}. October 21st, Seoul, Korea.
+
+\end{itemize}
+
+
+\subsection*{Invited \& departmental talks}
+
+\begin{itemize}
+
+%\item Jeong, Sunwoo and Christopher Potts. 2016. Intonational Sentence-Type Conventions for Perlocutionary Effects. {\it Stanford SemPrag}. May 5th, Stanford University.
+
+\item Jeong, Sunwoo. 2019. The effect of prosody on veridicality inferences in Korean. Talk presented at \emph{Logic and Engineering of Natural Language Semantics 16 (LENLS 16)}. November 12th, Kanagawa, Japan.
+
+\item Jeong, Sunwoo. 2019. Biased polar questions. Talk presented at \emph{ILLC}. June 12th, Amsterdam.
+
+\item Jeong, Sunwoo. 2019. Deriving dual bias:\ Preposed negation questions with 
+\textsc{even}. Talk presented at the \emph{USC Meaning Lab}. April 19th, USC.
+
+\item Jeong, Sunwoo. 2018. Focus, Questions under Discussion, and the Epistemic Containment Principle. Talk presented at \emph{The Berkeley Syntax/Semantics Circle}. March 23rd, UC Berkeley.
+
+\item Jeong, Sunwoo. 2018. Intonation and clause-type conventions: The semantics of rising declaratives. Talk presented at \emph{The Subfield Meeting of Stanford Open House}. March 8th, Stanford University.
+
+\item Jeong, Sunwoo and Cleo Condoravdi. 2017. Imperatives with Downstepped Level Terminal Contours. Talk presented at \emph{The Subfield Meeting of Stanford Open House}. March 6th, Stanford University.
+
+\item Jeong, Sunwoo. 2017. Intonation and Sentence Type Conventions: Two Types of Rising Declaratives. Talk presented at \emph{The UCSC-Stanford Workshop on Sentence Types.} January 29th, UC Santa Cruz.
+
+\item Jeong, Sunwoo. 2016. The Social and Pragmatic Meaning of Non-Rising Terminal Contours in English Yes-No Questions. Talk presented at \emph{The Subfield Meeting of Stanford Open House}. March 4th, Stanford University.
+
+%\item Jeong, Sunwoo. 2014. Iconicity in Suprasegmental Variables: The Case of Archetypal Hollywood Characters from the 1940s-50s. {\it Stanford P-Interest}. September 12th, Stanford University.
+
+%\item Jeong, Sunwoo. 2012. Typology and Asymmetries in Nasalization. \emph{SNU Phonology Circle.} November 24th, Seoul National University.
+
+\end{itemize}
+
+
+\section*{Fieldwork}
+
+\begin{itemize}\itemsep -1pt
+
+\item The Voices of California Project \hfill 2014--2015
+
+\vspace{-0.08in}
+
+\begin{itemize}\itemsep -1pt
+\item Retreat and data analysis at Marconi, CA \hfill Summer 2015
+
+\item Fieldwork in Sacramento, CA \hfill Summer 2014
+\end{itemize}
+
+\vspace{-0.08in}
+
+\item Field study of Mongolian \hfill Summer 2007
+
+\vspace{-0.08in}
+
+\begin{itemize}
+\item Fieldwork in the Inner Mongolia University and the Inner Mongolia prairie 
+\end{itemize}
+
+\end{itemize}
+
+
+\section*{Teaching}
+
+\subsection*{At Seoul National University}
+
+\begin{itemize}\itemsep -1pt
+\item Instructor, Seminar in Experimental Linguistics. \hfill Spring 2020
+\item Instructor, Semantics. \hfill Spring 2020
+\item Instructor, Experimental Linguistics. \hfill Autumn 2019
+
+\end{itemize}
+
+\subsection*{At Princeton University}
+
+\begin{itemize}\itemsep -1pt
+\item Instructor, Intonation. \hfill Autumn 2018
+
+\item Instructor, Varieties of Meaning (Intro to Semantics \& Pragmatics). \hfill Spring 2019
+\end{itemize}
+
+\subsection*{At Stanford University}
+
+\begin{itemize}\itemsep -1pt
+\item TA, Introduction to Semantics and Pragmatics. Instructor: Cleo Condoravdi \hfill Winter 2017
+
+\item TA, Language Acquisition. Instructor: Eve Clark. \hfill Autumn 2016
+
+\item Lab TA, Phonetics and Linguistics Lab. Instructor: Meghan Sumner. \hfill Autumn 2014 - Spring 2015
+
+%\item Wellness Ambassador for graduate students in humanities \hfill Autumn 2016 - Spring 2018
+
+\item Grader, Introduction to Psycholinguistics. Instructor: Judith Degen. \hfill Autumn 2017
+\end{itemize}
+
+
+\subsection*{At Seoul National University}
+
+\begin{itemize}\itemsep -1pt
+\item TA, Introduction to Morphology. Instructor: Jongho Jun. \hfill Spring 2012
+
+\item TA, Introduction to Phonology. Instructor: Jongho Jun. \hfill Autumn 2011
+
+\item TA, Introduction to Linguistics. Instructor: Jongho Jun. \hfill Spring 2011
+\end{itemize}
+
+
+\subsection*{Guest Lectures}
+
+\begin{itemize}
+\item Jeong, Sunwoo. 2019. Imperatives and Intonation. Guest lecture given at \emph{Seminar in Semantics} (Instructor: Deniz Rudin). April 19th, USC.
+\item Jeong, Sunwoo. 2018. Sociophonetics and suprasegmental variables: Stylistic variation in classic Hollywood cinema. Guest lecture given at \emph{Introduction to Language \& Linguistics} (Instructor: Laura Kalin). Princeton University.
+\end{itemize}
+
+\subsection*{Other teaching related activities}
+
+\begin{itemize}\itemsep -1pt
+\item Undergraduate advisor for junior papers, Program in Linguistics at Princeton. \hfill Autumn 2018
+
+\item Program coordinator, CSLI summer internship at Stanford.\ Director: Christopher Potts \hfill Summer 2018
+
+\item Mentor, EDGE (Enhancing Diversity in Graduate Education) program at Stanford. \hfill AY 2017 - 2018
+
+\item RA, Developing new course materials for a general linguistics course at Stanford. \hfill Summer 2016 %\newline Instructor: Meghan Sumner 
+
+\item Undergraduate mentor and graduate representative, SNU Department of Linguistics. \hfill Summer 2012
+\end{itemize}
+
+\section*{Service}
+
+\subsection*{Ad hoc journal refereeing}
+
+\begin{itemize}\itemsep -1pt
+\item Glossa, Journal of Semantics, NLLT (Natural Language and Linguistic Theory), \\ Semantics \& Pragmatics 
+\end{itemize}
+
+\subsection*{Conference/Program refereeing}
+
+\begin{itemize}\itemsep -1pt
+\item Amsterdam Colloquium, Chicago Linguistic Society, CSLI Summer Internship Program, Speech Prosody
+\end{itemize}
+
+\subsection*{Editorial service}
+
+\begin{itemize}\itemsep -1pt
+\item 2019--current Consulting editor, Linguistics
+\end{itemize}
+
+\subsection*{Other service}
+
+\begin{itemize}\itemsep -1pt
+%\item EDGE (Enhancing Diversity in Graduate Education) mentor \hfill Fall 2017 - present
+% \item Reviewer, Journal of Semantics \hfill Autumn 2017
+% \item Reviewer, CLS (Chicago Linguistic Society) \hfill Spring 2017
+\item Member, Colloquium committee, Stanford \hfill Autumn 2016 - Spring 2016
+\item Member, Search committee, Stanford \hfill Autumn 2016
+% \item Reviewer, CSLI internship applications \hfill Spring 2016, 2018
+\item Wellness Ambassador for graduate students in the humanities, Stanford \hfill Fall 2016 - present
+\item Co-organizer, Stanford P-Interest Workshop \hfill Autumn 2015 - Spring 2016
+\item Graduate representative, Undergraduate Major Fair \hfill Autumn 2015
+%\item Organizer of the hike to the Russian Ridge in celebration of Roman Jakobson's birthday \hfill Autumn 2015
+\item Organizer, First Stanford Linguistics Department Hangul day celebration \hfill Autumn 2015
+\item Co-organizer, SALT 25 lightning poster talk session \hfill Autumn 2015
+%\item Helper at Japanese and Korean Linguistics Conference \hfill Fall 2012
+\item Member, Graduate Studies Committee, Stanford \hfill Autumn 2014 - Spring 2015
+\item Member, Graduate Social Committee, Stanford \hfill Autumn 2013 - Spring 2014
+
+\end{itemize}
+
+
+\section*{Languages}
+
+\begin{itemize}\itemsep -1pt
+\item Korean (native), English (fluent), French (fluent: DALF C2), Spanish (intermediate), Latin (intermediate), Ancient Greek (reading), Japanese (reading, research), Mongolian (fieldwork, research).
+\item HTML/Javascript, Praat, R, Python.
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{https://sunwooj.github.io/documents/jeong-cv.pdf}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
