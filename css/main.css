@@ -133,6 +133,16 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
+.fill {
+	text-align: justify;
+}
+
+.fill:after {
+	content: " ";
+	display: inline-block;
+	width: 100%;
+}
+
 	h1, h2, h3, h4, h5, h6 {
 		color:  #8c1515;
 		/* #777; */
